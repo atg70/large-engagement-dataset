@@ -12,6 +12,21 @@
       "name": "edge_attr",
       "dataType": "List",
       "description": "List of edge attributes"
+    },
+    {
+      "name": "author.description",
+      "dataType": "String",
+      "description": "This is the author's caption or description that is associated to each node"
+    },
+    {
+      "name": "text",
+      "dataType": "String",
+      "description": "This is the text in the tweet, which has been retweeted, reposted or quoted. It is associated to an edge in the graph"
+    },
+    {
+      "name": "Interaction_Count",
+      "dataType": "Integer",
+      "description": "The number of interactions between two users in graph."
     }
   ]
 }
